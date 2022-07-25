@@ -1,0 +1,29 @@
+{
+  "name": "Websocket - Server",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "",
+  "node-main": "server.js",
+  "main": "http://localhost:3001",
+  "node-remote": "http://localhost:3001",
+  "scripts": {
+    "start": "nw .",
+    "prod": "nwbuild --platforms win64 --mode build --buildDir dist/ ."
+  },
+  "keywords": [
+    "NW.js",
+    "server",
+    "example"
+  ],
+  "author": "Shubhrendu Shekhar",
+  "license": "MIT",
+  "devDependencies": {
+    "nw": "0.55.0-sdk"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "tcp-port-used": "^1.0.2",
+    "websocket": "^1.0.34"
+  }
+}
